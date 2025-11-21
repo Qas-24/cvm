@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الدورات التدريبية</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body { font-family: 'Tajawal', sans-serif; background-color: #f8f9fa; }
+    .course-card img {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+    }
+    .course-card .card {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .course-card .card:hover {
+      transform: scale(1.02);
+    }
+    .section-title {
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<button class="btn btn-dark m-3" data-bs-toggle="offcanvas" data-bs-target="#sidebar">☰ القائمة</button>
+
+<div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="sidebar">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title"> القائمة</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="text-center mb-4">
+      <img src="profile.jpg" class="rounded-circle shadow"  width="200" height="190" alt="قاسم">
+      <h5 class="mt-2">قاسم</h5>
+      <p class="text-muted small">مطور ومصمم واجهات</p>
+    </div>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link text-white" href="courses.html"><i class="bi bi-journal-code me-2"></i> الدورات التدريبية</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="experience.html"><i class="bi bi-award me-2"></i> الخبرات والإنجازات</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="skills.html"><i class="bi bi-tools me-2"></i> المهارات الشخصية</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="contact.html"><i class="bi bi-envelope me-2"></i> تواصل معي</a></li>
+    </ul>
+    <hr class="text-white my-3">
+    <p class="text-center text-white-50 small">شكرا لزيارتك موقعي ~_~</p>
+  </div>
+</div>
+
+<div class="container py-5">
+  <h2 class="text-center mb-4">📚 الدورات التدريبية</h2>
+
+  <!-- قسم لغات البرمجة -->
+  <div class="section-title text-center">
+    <h4>🧠 لغات البرمجه و المواضيع المتعلقه بها</h4>
+    <p class="text-muted">تعلم أساسيات تطوير المواقع والتطبيقات باستخدام أشهر لغات البرمجة.</p>
+      <p class="text-muted">بالإضافة إلى بعض الدورات الاخرى التي تختص بالبرمجه.</p>
+
+  </div>
+  <div class="row g-4 course-card">
+    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="flutter.png" data-bs-toggle="modal" data-bs-target="#modalflutter" alt="فلتر">
+        <div class="card-body text-center">
+          <h6 class="card-title">FLUTTER</h6>
+        </div>
+      </div>
+    </div>
+	
+			    <!-- ai -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="x.png " data-bs-toggle="modal" data-bs-target="#modalx" alt="ذكاء">
+        <div class="card-body text-center">
+          <h6 class="card-title">مفاهيم الذكاء الاصطناعي وتطبيقاته المتقدمة </h6>
+        </div>
+      </div>
+    </div>  
+	
+    <!-- سيبراني -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="sec.png" data-bs-toggle="modal" data-bs-target="#modalsec" alt="سيبراني">
+        <div class="card-body text-center">
+          <h6 class="card-title">الامن السيبراني </h6>
+        </div>
+      </div>
+    </div>
+    <!-- سيبراني -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="sec2.jpg " data-bs-toggle="modal" data-bs-target="#modalsec2" alt="سيبراني">
+        <div class="card-body text-center">
+          <h6 class="card-title">الامن السيبراني </h6>
+        </div>
+      </div>
+    </div>  
+	
+	
+	    <!-- سيبراني -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="sec3.jpg " data-bs-toggle="modal" data-bs-target="#modalsec3" alt="معلومات">
+        <div class="card-body text-center">
+          <h6 class="card-title">امن المعلومات</h6>
+        </div>
+      </div>
+    </div>  
+	
+
+	
+	
+	
+  </div>
+  <!-- الدورات الاخرى -->
+  <div class="section-title text-center">
+    <h4>دورات متنوعه </h4>
+    <p class="text-muted">هنا قسم الدورات الاخرى التي قمت بالالتحاق بها لزياده مهاراتي وخبراتي</p>
+  </div>
+  
+  
+   <div class="row g-4 course-card">
+   
+   	
+								    <!-- مهنه -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="a.png" data-bs-toggle="modal" data-bs-target="#modala" alt="مهنه">
+        <div class="card-body text-center">
+          <h6 class="card-title">أخلاقيات المهنه وثقافة العمل</h6>
+        </div>
+      </div>
+    </div>
+								    <!-- مقابلات -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="v.png" data-bs-toggle="modal" data-bs-target="#modalv" alt="فن">
+        <div class="card-body text-center">
+          <h6 class="card-title">فن اجتياز المقابلات الشخصية</h6>
+        </div>
+      </div>
+    </div>
+								    <!-- مهن -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="z.png" data-bs-toggle="modal" data-bs-target="#modalz" alt="مهن">
+        <div class="card-body text-center">
+          <h6 class="card-title">الميول المهنية</h6>
+        </div>
+      </div>
+    </div>
+	
+   	    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="bl.jpg" data-bs-toggle="modal" data-bs-target="#modalbl" alt="blender">
+        <div class="card-body text-center">
+          <h6 class="card-title">تعلم التصميم ثلاثي الابعاد و استخدام تطبيق بلندر</h6>
+        </div>
+      </div>
+    </div>
+   
+    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="sho.jpg" data-bs-toggle="modal" data-bs-target="#modalsho" alt="تسويق">
+        <div class="card-body text-center">
+          <h6 class="card-title">التسويق عبر وسائل التواصل الاجتماعي</h6>
+        </div>
+      </div>
+    </div>
+	
+
+	
+		    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="ed.jpg" data-bs-toggle="modal" data-bs-target="#modaled" alt="تصميم">
+        <div class="card-body text-center">
+          <h6 class="card-title">عين المصمم</h6>
+        </div>
+      </div>
+    </div>
+	
+			    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="thi.jpg" data-bs-toggle="modal" data-bs-target="#modalthi" alt="تفكير">
+        <div class="card-body text-center">
+          <h6 class="card-title">التفكير التصميمي</h6>
+        </div>
+      </div>
+    </div>
+	
+	
+				    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="em.jpg" data-bs-toggle="modal" data-bs-target="#modalem" alt="عملاء">
+        <div class="card-body text-center">
+          <h6 class="card-title">خدمة العملاء</h6>
+        </div>
+      </div>
+    </div>
+	
+					    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="re.jpg" data-bs-toggle="modal" data-bs-target="#modalre" alt="رياده">
+        <div class="card-body text-center">
+          <h6 class="card-title">ريادة الاعمال</h6>
+        </div>
+      </div>
+    </div>
+	
+						    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="s.jpg" data-bs-toggle="modal" data-bs-target="#modals" alt="سرد">
+        <div class="card-body text-center">
+          <h6 class="card-title">السرد القصصي الرقمي</h6>
+        </div>
+      </div>
+    </div>
+	
+							    <!-- فلتر -->
+    <div class="col-md-6 col-lg-3">
+      <div class="card h-100">
+        <img src="m.jpg" data-bs-toggle="modal" data-bs-target="#modalm" alt="مشروع">
+        <div class="card-body text-center">
+          <h6 class="card-title">صفات المشروع الناجح و البودكاست</h6>
+        </div>
+      </div>
+    </div>
+
+	</div>
+	
+  
+  <!-- قسم لغات التحدث -->
+  <div class="section-title text-center">
+    <h4 class="mt-5">🌍 دورات لغات التحدث</h4>
+    <p class="text-muted">واصل بلغات متعددة لتوسيع فرص العمل والتفاعل العالمي.</p>
+  </div>
+  <div class="row g-4 course-card">
+    <!-- الإنجليزية -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="les.jpg " data-bs-toggle="modal" data-bs-target="#modalEnglish" alt="الإنجليزية">
+        <div class="card-body text-center">
+          <h6 class="card-title">اللغة الإنجليزية استماع</h6>
+        </div>
+      </div>
+    </div>
+    <!-- العربية -->
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="spe.jpg " data-bs-toggle="modal" data-bs-target="#modalArabic" alt="العربية">
+        <div class="card-body text-center">
+          <h6 class="card-title">اللغه الانجليزيه تحدث</h6>
+        </div>
+      </div>
+    </div>
+    <!-- مساحه للغات الثانيه  -->
+
+  <div class="text-center mt-5">
+    <a href="index.html" class="btn btn-secondary">⬅️ الرجوع للصفحة الرئيسية</a>
+  </div>
+</div>
+
+<!-- النوافذ المنبثقة للعرض الكامل -->
+<!-- مثال لدورة فلتر -->
+<div class="modal fade" id="modalflutter" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="flutter.png " class="img-fluid w-100" alt="flutters">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalsec" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="sec.png " class="img-fluid w-100" alt="flutters">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="modalArabic" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="spe.jpg " class="img-fluid w-100" alt="تحدث">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalEnglish" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="les.jpg " class="img-fluid w-100" alt="استماع">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- الامن السيبراني -->
+<div class="modal fade" id="modalsec2" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="sec2.jpg " class="img-fluid w-100" alt="الامن السيبراني">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- امن المعلومات -->
+<div class="modal fade" id="modalsec3" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="sec3.jpg " class="img-fluid w-100" alt="من المعلومات ">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- التسويق -->
+<div class="modal fade" id="modalsho" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="sho.jpg " class="img-fluid w-100" alt="التسويق">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- blender -->
+<div class="modal fade" id="modalbl" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="bl.jpg" class="img-fluid w-100" alt="blender">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- عين مصمم -->
+<div class="modal fade" id="modaled" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="ed.jpg " class="img-fluid w-100" alt="عين مصمم ">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- التفكير -->
+<div class="modal fade" id="modalthi" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="thi.jpg " class="img-fluid w-100" alt="التفكير">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- خدمة العملاء -->
+<div class="modal fade" id="modalem" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="em.jpg " class="img-fluid w-100" alt="خدمة العملاء ">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ريادة -->
+<div class="modal fade" id="modalre" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="re.jpg " class="img-fluid w-100" alt="ريادة">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- السرد -->
+<div class="modal fade" id="modals" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="s.jpg" class="img-fluid w-100" alt="السرد">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- مشروع -->
+<div class="modal fade" id="modalm" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="m.jpg " class="img-fluid w-100" alt="مشروع">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ai -->
+<div class="modal fade" id="modalx" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="x.png " class="img-fluid w-100" alt="ai">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--  -->
+<div class="modal fade" id="modala" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="a.png " class="img-fluid w-100" alt="a">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- مشروع -->
+<div class="modal fade" id="modalv" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="v.png " class="img-fluid w-100" alt="v">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- مشروع -->
+<div class="modal fade" id="modalz" tabindex="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content bg-dark">
+      <div class="modal-body p-0">
+        <img src="z.png " class="img-fluid w-100" alt="z">
+      </div>
+      <div class="modal-footer justify-content-center bg-dark">
+        <button type="button" class="btn btn-light" data-bs-dismiss="modal">إغلاق</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- كرر نفس النمط لباقي الصور -->
+<!-- modalCss, modalJs, modalPython, modalEnglish, modalArabic, modalJapanese -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
